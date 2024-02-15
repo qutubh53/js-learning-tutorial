@@ -39,3 +39,10 @@ let MaxValue = 6
 let diesNumber = Math.floor(Math.random()* (MaxValue - minValue) + 1)
 
 // console.log(diesNumber);
+
+function examResult(english, hindi, maths) {
+    console.log(english + hindi + maths);
+    return english + hindi + maths
+}
+
+console.log(examResult(47, 42, 45));
